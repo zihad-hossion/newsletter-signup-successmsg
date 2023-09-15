@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- My customise css stylesheet link -->
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+
+<body>
+  <!-- Sign-up form start -->
+  <section class="signUp">
+    <div class="left">
+      <h1>Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      <article>
+        <div>
+          <img src="./images/icon-list.svg" alt="">
+          <span>Product discovery and building what matters</span>
+        </div>
+        <div>
+          <img src="./images/icon-list.svg" alt="">
+          <span>Measuring to ensure updates are a success</span>
+        </div>
+        <div>
+          <img /images/icon-list.svg" alt="">
+          <span>And much more!</span>
+        </div>
+      </article>
+      <form>
+        <div class="fTxt">
+          <label for="email">Email address</label>
+          <small class="errMsg"></small>
+        </div>
+        <input type="email" id="email" placeholder="email@com.com" required>
+        <button id="submit-Btn">Subscribe to monthly newsletter</button>
+      </form>
+    </div>
+    <div class="right">
+      <img class="deskImg" src="./images/illustration-sign-up-desktop.svg" alt="">
+      <img class="mobImg" src="./images/illustration-sign-up-mobile.svg" alt="">
+    </div>
+  </section>
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+  <section class="successMsg hide">
+    <img src="./images/icon-success.svg" alt="">
+    <h1>Thanks for subscribing!</h1>
+    <p> A confirmation email has been sent to <span>ash@loremcompany.com.</span> Please open it and click the button
+      inside to confirm your subscription.</p>
+    <button>Dismiss message</button>
+  </section>
+  <!-- Success message end -->
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.linkedin.com/in/zihad-hossion" target="_blank">Zihad Hossion</a>.
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
